@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#title {
+  background-color: #ff4c68;
+  font-family: "Ubuntu", sans-serif;
+ 
+  
+  
+}
+
+/* font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Ubuntu', sans-serif; */
+.h1,
+h1 {
+
+    
+  font-family: "Edu QLD Beginner", cursive;
+
+  line-height: 1.3;
+}
+
+.title-p{
+padding: 0% 5% 0 5% ;
+z-index: -2;
+
+}
+
+.nav-image {
+  width: 80%;
+  position: relative;
+  left: 80px;
+  /* top: px; */
+  margin-top: 25%;
+  height: 80%;
+  transform: rotate(25deg);
+  /* z-index: ; */
+  
+}
+
+.navbar {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  /* font-weight: bold; */
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  margin: 0 35px 0 0;
+  padding-left: 0px;
+}
+
+@media screen and (max-width : 1048px) {
+
+    
+    .nav-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 992px){
+.btn-download {
+    
+    width: 100%;
+}
+}
+
+
+
+
+/* features */
+
+#features {
+  padding: 8% 0 ;
+  position: relative;
+ 
+  background-color: white;
+  z-index: 1;
+  
+}
+
+.fa-5x {
+  color: #ff4c68;
+}
+
+.buttton {
+  margin: 0px 10px 25px 0px;
+}
+
+/* testimonials */
+
+
+
+#testimonials {
+  background-color: #ef8172;
+  font-family: "Edu QLD Beginner", cursive;
+  padding: 4% 0 0 0;
+  text-align: center;
+}
+.h2-t {
+  padding: 5% 0 0 0;
+  width: 74%;
+  padding: 0 0 0 27%;
+  line-height: 2;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.it-image {
+  width: 7%;
+  border-radius: 100%;
+}
+
+/* .testimonials :hover{
+    
+    background-color: #ff4c68;
+  } */
+/* press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 2% 0 7% 0;
+}
+
+.p-image {
+  width: 10%;
+  padding: 0 20px 5px 0;
+}
+
+
+/* pricing ?= */
+
+#pricing{
+    margin: 4% 0 0 0;
+}
+
+.h2-p , .p-p{
+ text-align: center;
+ line-height: 2;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.p-p{
+    font-family: "Edu QLD Beginner", cursive;
+}
+
+.row-price{
+    width: 80%;
+margin: 3% 0 8% 10%;
+text-align: center;
+
+}
+
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 4% 2%;
+}
+
+h3{
+    font-family: "Edu QLD Beginner", cursive;
+    font-weight: bold;
+}
+
+.btn-cta{
+    padding: 10px;
+    margin: 15px 20px 0 0 ;
+}
+
+#footer{
+    background-color:#7e9eab ;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
